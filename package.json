@@ -7,11 +7,12 @@
     "node": "14.x"
   },
   "scripts": {
-    "start": "conversation-api-function run ."
+    "start": "conversation-api-function run . | bunyan"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bunyan": "^1.8.15",
     "conversation-api-function": "0.0.15"
   }
 }
